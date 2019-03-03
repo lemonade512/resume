@@ -1,5 +1,5 @@
 % LaTeX resume using res.cls
-\documentclass[margin,11pt]{res}
+\documentclass[margin,10pt]{res}
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font
 
@@ -10,10 +10,6 @@
 \begin{document}
 
 \name{Phillip Lemons}
-% \address used twice to have two lines of address
-\address{800 W 38th St, Apt. 01210
-      \\ Austin, TX 78705
-	  \\ (512) 897-7446}
 \address{philliplemons512@gmail.com
       \\ www.philliplemons.com}
 
@@ -28,19 +24,28 @@
                 Concentration: Software Engineering \\
                 GPA: 3.74
 
-
 \section{COMPUTER \\ SKILLS} {\sl Languages:} Python, C, C++, Java,
                 Javascript \\
-                {\sl Technologies:} Flask, React, Google App Engine, JQuery \\
-                {\sl Operating Systems:} Linux
+                {\sl Technologies:} Flask, React, Vue, GAE, GCP, JQuery, Kafka \\
+                {\sl Operating Systems:} MacOS, Linux
 
 \section{EXPERIENCE}
-    {\sl Student Technician} \hfill            August 2015 - Present \\
+    {\sl Software Engineer III} \hfill         January 2017 - Present \\
+    SparkCognition, Austin, TX
+    \begin{itemize} \itemsep -2pt %reduce space between items
+        \item Architect and tech lead for internal ETL tool
+        \item Team lead for PoCs deploying ML models to production environments
+        \item Wrote documentation for developer on-boarding process
+        \item Monitored honeypots for trends in malicious hacking attempts
+    \end{itemize}
+
+    {\sl Student Technician} \hfill            August 2015 - January 2017 \\
     Applied Research Laboratories, Austin, TX
     \begin{itemize}  \itemsep -2pt %reduce space between items
-        \item Writing bathymetry avoidance software for autonomous submarine
-        \item Used socket connection to link processes between two computers
-        %\item Working on designing metrics to determine successful missions
+        \item Wrote bathymetry avoidance software for UUV
+        \item Created UUV monitoring and control dashboard using PyGtk
+        \item Linked critical UUV metrics to laptop application using sockets
+        \item Designed metrics to determine successful missions
     \end{itemize}
 
     {\sl Software Engineering Intern} \hfill   May 2015 - August 2015 \\
@@ -71,14 +76,6 @@
     \begin{itemize} \itemsep -2pt
         \item Used by an active organization to track member participation points
         \item Hosted on Google App Engine with a Python Flask server
-    \end{itemize}
-
-    {\sl DM Program} \hfill https://github.com/lemonade512/DMProgram\\
-    A desktop application for running role-playing games
-    \begin{itemize} \itemsep -2pt
-        \item Tracks game information using an SQLite database
-        \item User interface created using the wxPython GUI framework
-        %\item Uses the Python Nose testing framework for unit testing
     \end{itemize}
 
 %\section{OTHER ACHIEVEMENTS}
