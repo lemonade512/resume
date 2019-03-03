@@ -1,0 +1,98 @@
+% LaTeX resume using res.cls
+\documentclass[margin,11pt]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+
+\makeatletter
+\def\@tablebox#1{\begin{tabular}[t]{@{}c@{\extracolsep{\fill}}}#1\end{tabular}}
+\makeatother
+
+\begin{document}
+
+\name{Phillip Lemons}
+% \address used twice to have two lines of address
+\address{800 W 38th St, Apt. 01210
+      \\ Austin, TX 78705
+	  \\ (512) 897-7446}
+\address{philliplemons512@gmail.com
+      \\ www.philliplemons.com}
+
+\begin{resume}
+
+\section{EDUCATION} {\sl Bachelor of Science,} Electrical Engineering \\
+                % \sl will be bold italic in New Century Schoolbook (or
+	        % any postscript font) and just slanted in
+		% Computer Modern (default) font
+                University of Texas, Austin, TX,
+                December 2016 \\
+                Concentration: Software Engineering \\
+                GPA: 3.74
+
+
+\section{COMPUTER \\ SKILLS} {\sl Languages:} Python, C, C++, Java,
+                Javascript \\
+                {\sl Technologies:} Flask, React, Google App Engine, JQuery \\
+                {\sl Operating Systems:} Linux
+
+\section{EXPERIENCE}
+    {\sl Student Technician} \hfill            August 2015 - Present \\
+    Applied Research Laboratories, Austin, TX
+    \begin{itemize}  \itemsep -2pt %reduce space between items
+        \item Writing bathymetry avoidance software for autonomous submarine
+        \item Used socket connection to link processes between two computers
+        %\item Working on designing metrics to determine successful missions
+    \end{itemize}
+
+    {\sl Software Engineering Intern} \hfill   May 2015 - August 2015 \\
+    Khan Academy, Mountain View, CA
+    \begin{itemize} \itemsep -2pt %reduce space between items
+        \item Built sign-in system for Khan Lab School
+        \item Implemented sorting options for user search results
+        \item Implemented architecture for students to complete exercises offline
+    \end{itemize}
+
+    {\sl Student Technician} \hfill            January 2014 - May 2015 \\
+    Applied Research Laboratories, Austin, TX
+    \begin{itemize}  \itemsep -2pt %reduce space between items
+        \item Designed and coded zone avoidance software for autonomous submarine
+        \item Created GUI for planning, running, and analyzing simulated missions
+    \end{itemize}
+
+    {\sl Intern} \hfill May 2013 - July 2013 \\
+    RF Code, Austin, TX
+    \begin{itemize}  \itemsep -2pt % reduce space between items
+        \item Developed testing device used to test new tamper tab technology
+        \item Designed demo of asset tracking software to be given to possible customers
+    \end{itemize}
+
+\section{PROJECTS}
+    {\sl Bluebonnets Points} \hfill https://github.com/lemonade512/BluebonnetsPointsApp \\
+    A web application for the Texas Bluebonnets to track member participation
+    \begin{itemize} \itemsep -2pt
+        \item Used by an active organization to track member participation points
+        \item Hosted on Google App Engine with a Python Flask server
+    \end{itemize}
+
+    {\sl DM Program} \hfill https://github.com/lemonade512/DMProgram\\
+    A desktop application for running role-playing games
+    \begin{itemize} \itemsep -2pt
+        \item Tracks game information using an SQLite database
+        \item User interface created using the wxPython GUI framework
+        %\item Uses the Python Nose testing framework for unit testing
+    \end{itemize}
+
+%\section{OTHER ACHIEVEMENTS}
+\section{OTHER}
+    Eagle Scout in the Boy Scouts of America, July 2011 \\
+    %Interested in Artificial Intelligence and Machine Learning
+
+
+\end{resume}
+\end{document}
+
+
+
+
+
+
+
