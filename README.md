@@ -3,6 +3,8 @@ This repository contains my personal resume. It is super easy to build:
 
     $ pdflatex resume.tex
 
+I try to keep this updated at least once a year, and more often if I remember.
+
 # Installing pdflatex for MacOS
 Install mactex via Homebrew to gain access to the pdflatex command on mac.
 
